@@ -259,6 +259,7 @@
               <localWorkers>1</localWorkers>
               <jvmArgs>
                  <arg>-Xmx386m</arg>
+                 <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
               </jvmArgs>
             </configuration>
           </plugin>
